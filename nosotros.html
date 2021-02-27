@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="nosotros.css"-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--CSS BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!--FONT AWESOME PARA FAVICON-->
+    <link rel="shortcut icon" href="Images/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="https://dylanm6.github.io/loquenecesitassaber">
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+    <title>Lo que necesitas saber de...</title>
+</head>
+<body>
+    <h1>Sobre nosotros</h1>
+    <!--MENU ONLINE-->
+    <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+          <li><a href='index.html'>Inicio</a></li>
+          <li><a class='dropdown-arrow' href='guias.html'>Guías</a>
+            <ul class='sub-menus'>
+              <li><a href='lol.html'>League of legends</a></li>
+              <li><a href='warzone.html'>Warzone</a></li>
+              <li><a href='dark.html'>Dark Souls</a></li>
+            </ul>
+          </li>
+          <li><a href='nosotros.html'>Sobre nosotros</a></li>
+          <li><a href='http://www.google.es' target="_blank">Contáctanos</a></li>
+        </ul>
+      </nav>
+
+      <br>
+      <p>Hemos creado esta página para poder compartir guías sobre diversos servicios web así como videojuegos o la comprensión del funcionamento de diversos Sistemas Operativos para poder enseñar de la mejor manera posible cómo jugar a algún videojuego en concreto, cómo funciona un sistema, etc.</p>
+      <p>En la siguiente tabla encontrarás algunas guías futuras de diversas temáticas en las que estamos trabajando.</p>
+      <!--TABLA (BOOTSTRAP)-->
+      <table class="table table-striped table-bordered border-primary">
+        <thead>
+          <tr>
+            <th scope="col">Dificultad</th>
+            <th scope="col">Servicios</th>
+            <th scope="col">Videojuegos</th>
+            <th scope="col">Sistemas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Sencillo</th>
+            <td>Netflix</td>
+            <td>God of War</td>
+            <td>Windows 10</td>
+          </tr>
+          <tr>
+            <th scope="row">Moderada</th>
+            <td>Amazon Prime Video</td>
+            <td>Fortnite</td>
+            <td>Mac OS</td>
+          </tr>
+          <tr>
+            <th scope="row">Alta</th>
+            <td>-</td>
+            <td>Cuphead</td>
+            <td>Sistemas Linux</td>
+          </tr>
+        </tbody>
+      </table>
+</body>
+</html>

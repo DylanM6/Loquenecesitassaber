@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="index.css"-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--CSS BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!--FONT AWESOME PARA FAVICON-->
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
+    <!--<link rel="shortcut icon" href="images/favicon.ico" /-->
+    <title>Lo que necesitas saber de...</title>
+</head>
+<body>
+    <h1>Lo que necesitas saber de....</h1>
+    <!--MENU ONLINE-->
+    <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+          <li><a href='index.html'>Inicio</a></li>
+          <li><a class='dropdown-arrow' href='guias.html'>Guías</a>
+            <ul class='sub-menus'>
+              <li><a href='lol.html'>League of legends</a></li>
+              <li><a href='warzone.html'>Warzone</a></li>
+              <li><a href='dark.html'>Dark Souls</a></li>
+            </ul>
+          </li>
+          <li><a href='nosotros.html'>Sobre nosotros</a></li>
+          <li><a href='http://www.google.es' target="_blank">Contáctanos</a></li>
+        </ul>
+      </nav>
+
+      <br>
+      <p>Hoy en día, existen muchos tipos de videojuegos y todos ellos tienen sus formas de jugar y trucos que pueden ser únicos o parecidos a otros del mismo género.</p>
+      <p>Aunque la manera de jugar de distintos videojuegos sea muy famosa, existen personas que aún no saben cómo exactamente jugar a dichos juegos. Por ello, en esta página vamos a tratar de enfocarnos en esa gente que no sabe jugar correctamente videojuegos.</p>
+
+      <p>Algunos juegos en los que estamos trabajando son:</p>
+      <!--LISTA-->
+      <ul>
+        <li class="dark">Dark Souls 1</li>
+        <li class="warzone">Call of Duty: Warzone</li>
+        <li class="fortnite">Fortnite</li>
+        <li class="lol">League of legends</li>
+        <li class="gow">God of War 4</li>
+      </ul>
+      <p>Por ahora, hemos acabado Dark Souls 1, Call of Duty: Warzone y League of legends, por lo que puedes visitarlos haciendo clic en la que quieras aprender en el menú de inicio.</p>
+      <p>Si quieres ayudarnos a escoger una mayor cantidad de juegos, por favor rellena la siguiente encuesta para poder tener en cuenta un feedback de la comunidad, es decir, vosotros. Gracias.</p>
+      <form action="" method="POST">
+        <fieldset>
+          <legend>Feedback</legend>
+          Nombre <br/>
+          <input type="text" name="nombre" value="" />
+          <br/>
+          <label for="correo">Correo electrónico</label> <br/>
+          <p>Dirección de correo electrónico: <input type="email" name="direccionemail" placeholder="Ej.: usuario@servidor.com">
+          </p>
+          <br/>
+          <label for="descripcion">Videojuegos que quiera aportar</label> <br/>
+          <textarea id="descripcion" name="descripcion" cols="40" rows="5"></textarea>
+          <!--BOTON ONLINE-->
+          <br>
+          <a href="index.php" class="myButton" type="submit">Enviar datos</a>
+        </fieldset>
+      </form>
+</body>
+</html>
