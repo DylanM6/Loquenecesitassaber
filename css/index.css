@@ -151,17 +151,3 @@ li.lol {
 li.gow {
 	list-style-image: url(Images/gow.png);
 }
-/*CSS PIE DE PAGINA*/
-.footer {
-	height: 22px;
-	background-color: #e2e2e2;
-}
-.footer .copy{
-	font-size: 15px;
-}
-.footer a{
-	font-size: 15px;
-	text-align: right; 
-	display: inline-block;
-	width: 92%;
-}
