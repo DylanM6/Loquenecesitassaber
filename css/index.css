@@ -137,19 +137,19 @@ form {
 	text-indent: 10px;
 }
 li.dark {
-	list-style-image: url(/Images/dark.png);
+	list-style-image: url(Images/dark.png);
 }
 li.warzone {
-	list-style-image: url(/Images/warzone.png);
+	list-style-image: url(Images/warzone.png);
 }
 li.fortnite {
-	list-style-image: url(/Images/fortnite.png);
+	list-style-image: url(Images/fortnite.png);
 }
 li.lol {
-	list-style: url(/Images/lol.png);
+	list-style: url(Images/lol.png);
 }
 li.gow {
-	list-style-image: url(/Images/gow.png);
+	list-style-image: url(Images/gow.png);
 }
 /*CSS PIE DE PAGINA*/
 .footer {
